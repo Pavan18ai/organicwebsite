@@ -1,0 +1,91 @@
+/*Navbar CSS */
+*{
+    box-sizing:border-box;
+    margin:0%;
+    /*border: 1px solid black;*/
+}
+.navbar{
+    background-color: #e91e63;
+}
+.nav-link{
+    color: white !important;
+    font-weight: bold;
+    font-size:25px;
+}
+
+/* NAVBAR CSS END */
+/*home*/
+.bgimg{
+    background-image: url(https://img.freepik.com/free-photo/picture-apples-oranges-wooden-background_1340-26891.jpg?t=st=1720175666~exp=1720179266~hmac=35290078930124c14e5ee7473d591f42a0599713f2dee81f7b817573d10e9736&w=826);
+    width:100vw;
+    height:70vh;
+    background-position: center;
+    background-size: cover;
+}
+.heading{
+    color:white;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    text-shadow: 1px 2px 2px black;
+}
+.one{
+    width:20%;
+    font-size:20px !important;
+    font-weight:bold !important;
+}
+.heady{
+    color:green;
+    margin:3%;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 1px 2px 3px #e91e63;
+
+}
+.d-block{
+    aspect-ratio: 3/2;
+    width:100%;
+}
+@media screen and (max-width:768px){
+    .content{
+        margin-left:30% !important;
+    }
+}
+/*Payment*/
+.form-label{
+    color: #e91e63;
+    font-size: 20px;
+}
+.three{
+    width: 50%;
+    font-size: 20px !important;
+    font-weight: bold;
+}
+/*contact*/
+.formy{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+}
+input[type="text"]{
+    margin-bottom: 4%;
+}
+.four{
+    margin-top: 3%;
+}
+/*footer*/
+.two{
+font-size: 36px;
+font-weight: bold;
+text-shadow: 1px 2px 3px rgb(3, 3, 3);
+text-decoration: 3px underline gold;
+color: white;
+}
+.five{
+    color: white;
+    font-size: 40px;
+    border: 20px solid #e91e63;
+}
+.five i:hover{
+    columns: green;
+}
